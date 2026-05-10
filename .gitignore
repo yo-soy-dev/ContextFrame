@@ -1,0 +1,51 @@
+# Environment variables
+.env
+.env.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Vector store / chroma db
+chroma_db/
+*.db
+
+# Model downloads / cache
+models/
+.cache/
+huggingface/
+
+# Audio / video temp files
+*.mp3
+*.mp4
+*.wav
+*.webm
+uploads/
+temp/
+tmp/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
+*.egg-info/
